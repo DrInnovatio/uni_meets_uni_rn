@@ -6,6 +6,7 @@ export default function App() {
   return (
     <View style={ styles.container }>
       <Text style={ { fontSize: "30px" } }>Uni Meets Uni</Text>
+      <Text style={ { fontSize: "30px" } }>Test 1</Text>
       <StatusBar style="auto" />
     </View>
   );
