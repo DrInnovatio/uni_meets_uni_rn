@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SignUp from './components/signUp'
 
 export default function App() {
   return (
     <View style={ styles.container }>
       <Text style={ { fontSize: "30px" } }>Uni Meets Uni</Text>
-      <Text style={ { fontSize: "30px" } }>Test 2</Text>
-      <Text style={ { fontSize: "30px" } }>Test 3</Text>
       <StatusBar style="auto" />
+      <SignUp />
     </View>
   );
 }
